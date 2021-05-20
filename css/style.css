@@ -1,0 +1,53 @@
+﻿/* Change dropdown menu backcolor */
+
+.dropdown-menu {
+    background-color: #343A40;
+}
+
+
+/* Change dropdown selected item forecolor */
+
+.dropdown-menu a:hover {
+    color: #343A40 !important;
+}
+
+
+/* Darking image */
+
+.darking-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75)), url("../media/img/header-bkg.jpg");
+    /* Set a specific height */
+    /*height: 50%;*/
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Fit this class to screen */
+
+.height-100 {
+    min-height: 100vh;
+}
+
+.height-80 {
+    min-height: 80vh;
+}
+
+.intro-divider {
+    width: 80%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+
+.col{
+    margin-top: 50px;
+}
